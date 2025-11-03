@@ -5,6 +5,6 @@ return [
     'port' => getenv('MYSQLPORT') ?: '3306',
     'dbname' => getenv('MYSQLDATABASE') ?: 'railway',
     'username' => getenv('MYSQLUSER') ?: 'root',
-    'password' => getenv('MYSQLPASSWORD') ?: 'mmBqAqfuyqVeMkdGuAXwTVokBHrMOuDS',
+    'password' => getenv('MYSQLPASSWORD') ?: 'CYydePjiBMDOBTzLwJNwzfWBNyauldwH',
     'charset' => 'utf8mb4'
 ];
