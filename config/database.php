@@ -1,10 +1,9 @@
 <?php
-
 return [
-    'host' => getenv('DB_HOST') ?: '127.0.0.1',
+    'host' => getenv('DB_HOST') ?: 'mysql.railway.internal',
     'port' => getenv('DB_PORT') ?: '3306',
-    'dbname' => getenv('DB_NAME') ?: 'mvc_db',
+    'dbname' => getenv('DB_NAME') ?: 'railway',
     'username' => getenv('DB_USER') ?: 'root',
-    'password' => getenv('DB_PASSWORD') ?: 'fr4n5_3y5q7',
+    'password' => getenv('DB_PASSWORD') ?: 'password_dari_railway',
     'charset' => 'utf8mb4'
-]; 
+];
