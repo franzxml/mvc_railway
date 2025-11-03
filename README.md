@@ -1,29 +1,12 @@
-# Proyek project-mvc
+# Percobaan MVC PHP
 
-## Cara Pakai di Laragon
+Proyek ini merupakan implementasi sederhana arsitektur **Model-View-Controller (MVC)** menggunakan PHP. Tujuannya untuk memahami pemisahan logika aplikasi, tampilan, dan pengelolaan data secara terstruktur, serta mengujinya melalui deployment di **Railway**.
 
-1. **Klik kanan icon Laragon → Menu → www → project-mvc**
+## Fitur Utama
+- Struktur folder berbasis MVC (Model, View, Controller)
+- Routing dinamis menggunakan PHP native
+- Template view sederhana dengan HTML dan CSS
+- Koneksi database menggunakan PDO
+- Siap untuk deployment di Railway
 
-2. **Atau buat Pretty URL (jika langkah 1 gagal):**
-- - Klik kanan icon Laragon
-- - Menu → Apache → sites-enabled
-- - Buat file project-mvc.conf:
-
-```bash
-<VirtualHost *:80>
-       DocumentRoot "C:/laragon/www/project-mvc/public"
-       ServerName project-mvc.test
-       ServerAlias *.project-mvc.test
-       <Directory "C:/laragon/www/project-mvc/public">
-           AllowOverride All
-           Require all granted
-       </Directory>
-   </VirtualHost>
-```
-
-3. **Restart Apache dari Laragon**
-
-4. **Akses:**
-```bash
-   http://project-mvc.test
-```
+## Struktur Direktori
