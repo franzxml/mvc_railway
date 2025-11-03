@@ -1,9 +1,10 @@
 <?php
+
 return [
-    'host' => getenv('DB_HOST') ?: 'mysql.railway.internal',
-    'port' => getenv('DB_PORT') ?: '3306',
-    'dbname' => getenv('DB_NAME') ?: 'railway',
-    'username' => getenv('DB_USER') ?: 'root',
-    'password' => getenv('DB_PASSWORD') ?: 'OUuiQEPJstdKGDsLAQRfBRNhytchmSvo',
+    'host' => getenv('MYSQLHOST') ?: 'mysql.railway.internal',
+    'port' => getenv('MYSQLPORT') ?: '3306',
+    'dbname' => getenv('MYSQLDATABASE') ?: 'railway',
+    'username' => getenv('MYSQLUSER') ?: 'root',
+    'password' => getenv('MYSQLPASSWORD') ?: 'mmBqAqfuyqVeMkdGuAXwTVokBHrMOuDS',
     'charset' => 'utf8mb4'
 ];
